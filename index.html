@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo リスト</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- <div class="backgroundbox"></div> -->
+    <div class="contentbox">
+        <div class="backgroundbox">
+            <!-- input -->
+            <div class="input_area">
+                <input type="text" class="txt" id="add_text" placeholder=" ToDo を 追加">
+                <button id="add_button">追加</button>
+            </div>
+
+            <!-- incomplete -->
+            <div class="incomplete_area">
+                <h2>"<span class="redcolor"> 未完了 </span>ToDo "</h2>
+                <ul id="incomplete_list">
+                    <!-- <li>
+                <div class="list_row">
+                    <p>寝たい</p>
+                    <button>完了</button>
+                    <button>削除</button>
+                </div>
+            </li>
+            <li>
+                <div class="list_row">
+                    <p>帰りたい</p>
+                    <button>完了</button>
+                    <button>削除</button>
+                </div>
+            </li> -->
+                </ul>
+            </div>
+
+            <!-- complete -->
+            <div class="complete_area">
+                <h2>"<span class="bluecolor"> 完了済</span> ToDo "</h2>
+                <ul id="complete_list">
+                    <!-- <li>
+                <div class="list_row">
+                    <p>寝たい</p>
+                    <button>戻る</button>
+                </div>
+            </li>
+            <li>
+                <div class="list_row">
+                    <p>帰りたい</p>
+                    <button>戻る</button>
+                </div>
+            </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
